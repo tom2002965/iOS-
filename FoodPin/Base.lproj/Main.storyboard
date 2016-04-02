@@ -22,18 +22,14 @@
                                     <rect key="frame" x="0.0" y="0.0" width="600" height="79.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="t3V-fM-2iy">
+                                            <rect key="frame" x="0.0" y="-24" width="600" height="128"/>
+                                        </imageView>
                                         <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="u1j-QE-tHn">
                                             <rect key="frame" x="14" y="10" width="578" height="60"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="niE-xC-sfl">
-                                                    <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="60" id="WKA-Qr-MHP"/>
-                                                        <constraint firstAttribute="height" constant="60" id="fUK-Ap-S3b"/>
-                                                    </constraints>
-                                                </imageView>
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="GJy-aN-xmG">
-                                                    <rect key="frame" x="70" y="0.0" width="508" height="55"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="578" height="55"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x0M-zh-mFo">
                                                             <rect key="frame" x="0.0" y="0.0" width="48" height="20"/>
@@ -69,7 +65,7 @@
                                 <connections>
                                     <outlet property="locationLabel" destination="lNc-ci-o2f" id="mZW-Ss-MpL"/>
                                     <outlet property="nameLabel" destination="x0M-zh-mFo" id="Lly-Dz-ucT"/>
-                                    <outlet property="thumbnailImageView" destination="niE-xC-sfl" id="om0-TV-B9X"/>
+                                    <outlet property="thumbnailImageView" destination="t3V-fM-2iy" id="WU2-uk-34e"/>
                                     <outlet property="typeLabel" destination="jf0-UL-Rdd" id="rw4-zM-eIZ"/>
                                 </connections>
                             </tableViewCell>
